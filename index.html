@@ -3,17 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>ARANA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 </head>
 <body>
    
     <main>
-       <div>
+       <div class="passo" id="passo-0">
           <p>Um belo dia andando pela rua encontrei um papel que brilhava muito e quando cheguei perto dele e abrir ele era um grande mapa do tesouro </p>
 
-          <button></button>
+          <button class="btn proximo" data-proximo="1">São Paulo</button>
+          <button class="btn proximo" data-proximo="2">Belo Horizonte</button>
        </div>
+       <div class="passo" id="passo-1">
+        <p>Indo de São Paulo para Belo Horizonte encontrei mais pistas</p>
 
+        <button class="btn proximo" data-proximo="3">Belo Horizonte</button>
+        <button class="btn proximo" data-proximo="4">Desistir e voltar para casa</button>
+      </div>
 
     </main>
 

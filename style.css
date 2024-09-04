@@ -1,4 +1,14 @@
 body{
     background-color: white;
     font-family: "EB Garamond", system-ui;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+    background-color: gray;
+    font-family: "EB Garamond", system-ui;
 }

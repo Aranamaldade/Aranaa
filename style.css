@@ -12,3 +12,11 @@ button{
     background-color: gray;
     font-family: "EB Garamond", system-ui;
 }
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}

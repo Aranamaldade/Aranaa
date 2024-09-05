@@ -9,8 +9,9 @@ body{
 }
 
 button{
-    background-color: white;
+    background-color: black;
     font-family: "EB Garamond", system-ui;
+    color: white;
 }
 
 .passo{

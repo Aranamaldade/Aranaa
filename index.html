@@ -1,43 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>ARANA</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ARANA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-   
-    
+
+
   <main>
-       <div class="passo ativo" id="passo-0">
-         <img src="cenario.arana.webp" alt="">
+    <div class="passo ativo" id="passo-0">
+      <img src="cenario.arana.webp" alt="">
 
-          <p>Um belo dia andando pela rua encontrei um papel que brilhava muito e quando cheguei perto dele e abrir ele era um grande mapa do tesouro</p>
+      <p>Um belo dia andando pela rua encontrei um papel que brilhava muito e quando cheguei perto dele e abrir ele era
+        um grande mapa do tesouro</p>
 
-          <button class="btn proximo" data-proximo="1">São Paulo</button>
-          <button class="btn proximo" data-proximo="2">Bahia</button>
-       </div>
-       <div class="passo" id="passo-1">
-        <p>Indo de São Paulo para Bahia encontrei mais pistas</p>
+      <button class="btn proximo" data-proximo="1">São Paulo</button>
+      <button class="btn proximo" data-proximo="2">Bahia</button>
+    </div>
+    <div class="passo" id="passo-1">
+      <p>Em São Paulo encontrei mais pistas no Parque Vila lobos</p>
+      <button class="btn proximo" data-proximo="3">Parque Vila Lobos</button>
+      <button class="btn proximo" data-proximo="4">Desistir e voltar para casa</button>
+    </div>
 
-        <button class="btn proximo" data-proximo="3">Bahia</button>
-        <button class="btn proximo" data-proximo="4">Desistir e voltar para casa</button>
-      </div>
+    <div class="passo" id="passo-2">
+      <p>Na Bahia encontramos alguns enigmas que precisavam serem desvendados para chegar até o proximo passo</p>
+      <button class="btn proximo" data-proximo="5">Buscar mais pista no Pelourinhos</button>
+      <button class="btn proximo" data-proximo="6">Desvendar misterio em Porto de Galinhas</button>
 
-      <div class="passo" id="passo-2">
-         <p>Na Bahia encontramos alguns enigmas que precisavam serem desvendados para chegar até o proximo passo</p>
-         
-         <button class="btn proximo" data-proximo="5">Feira de Santana</button>
-         <button class="btn proximo" data-proximo="6">Porto de Galinhas</button>
-      </div>
+    </div>
+    <div class="passo" id="passo-3">
+      <p> No parque Vila Lobos encontramos pistas que nos levaram até Mato Grosso</p>
+      <button class="btn proximo" data-proximo="7">Mato Grosso</button>
 
+    </div>
+    <div class="passo" id="passo-4">
+      <p> Voltar pra casa não é opção, prossiga até encontrar o tesouro... </p>
+      <button class="btn proximo" data-proximo="8">Vamos lá!</button>
+
+    </div>
+    <div class="passo" id="passo-5"></div>
+      <p>No Pelourinho podemos visitar algumas igrejas para buscar mais pistas. </p>
+      <button class="btn proximo" data-proximo="9">Igreja</button>
+      <button class="btn proximo" data-proximo="10">Igreja</button>
+
+    </div>
+    <div class="passo" id="passo-6"></div>
+      <p>Desvendar os mistérios das Praias de porto de Galinhas. </p>
+      <button class="btn proximo" data-proximo="11">Praia 1</button>
+      <button class="btn proximo" data-proximo="12">Praia 2</button>
+
+    </div>
+    <div class="passo" id="passo-7"></div>
+      <p>No mato grosso vamos precisar retornas para alguns locais no Porto de Galinha. </p>
+      <button class="btn proximo" data-proximo="11">Praia 1</button>
+      <button class="btn proximo" data-proximo="12">Praia 2</button>
+
+    </div>
+    <div class="passo" id="passo-8"></div>
+      <p>Vamos prosseguir nossa jornada até a Bahia</p>
+      <button class="btn proximo" data-proximo="9">Buscar mais pistas em Pelourinhos</button>
+     
+    </div>
+    <div class="passo" id="passo-9"></div>
+      <p>Na primeira igreja encontramos pistas que nos levaram até as praias em Porto de Galinhas</p>
+      <button class="btn proximo" data-proximo="11">Praia 1</button>
+      <button class="btn proximo" data-proximo="12">Praia 2</button>
+
+    </div>
+    <div class="passo" id="passo-10"></div>
+    <p>Na segunda igreja encontramos nosso tão procurado tesouro!!! Parabéns você chegou ao fim dessa incrível jornada.</p>
     
-    </main>
-    <script src="script.js"></script>
+   </div>
+   <div class="passo" id="passo-11"></div>
+    <p>Aqui não encontramos nada.</p>
+    
+   </div>
+   <div class="passo" id="passo-10"></div>
+    <p>Aqui não encontramos nada. E vamos voltar para Porto de Galinhas</p>
+  
+   </div>
+
+
+
+  </main>
+  <script src="script.js"></script>
 
 </body>
+
 </html>
